@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <title>
+            QR Code Component
+        </title>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+            }
+            body{
+                display:flex;
+                background-color:hsl(212, 45%, 89%);
+                align-items:center;
+                justify-content:center;
+                min-height:100vh;
+                font-family: "Outfit", sans-serif;
+                font-weight:400;
+                text-align: center;
+                font-size:15px;
+            }
+            .container{
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                background-color:hsl(0, 0%, 100%);
+                width:240px;
+                padding:12px;
+                border-radius:15px;
+                margin:20px;
+            }
+            img{
+                width:100%;
+                border-radius:10px;
+            }
+            .bold{
+                font-size:20px;
+                font-weight:700;
+                margin-top:20px;
+                color:hsl(218, 44%, 22%);
+            }
+            .text{
+                margin:15px 0px;
+                color:hsl(216, 15%, 48%);
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, iitial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <img src="images/image-qr-code.png">
+            <p class="bold">
+                Improve your front-end skills by building projects
+            </p>
+            <p class="text">
+                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </p>
+        </div>
+    </body>
+</html>
